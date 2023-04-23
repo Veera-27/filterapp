@@ -1,0 +1,30 @@
+body {
+    background-color: darkturquoise;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: white;
+    color: black;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 3px solid yellow;
+    background-color: white;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 10px 10px 20px green;
+    }
+
+    to {
+        box-shadow: 10px 10px 20px orangered;
+    }
+}
